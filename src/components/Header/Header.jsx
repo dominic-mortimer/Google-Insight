@@ -8,15 +8,6 @@ function Header() {
      <div>
          <p className="header__title"><img className="header__logo" src={googleLogo} alt="googlelogo"/> Insights</p>
          <div className="header__navbar">
-             {/* <ul className="header__nav">
-                <li>Visualize My Data</li>
-                <div className="navbar__body">
-                <li>Overview</li>
-                <li>How It Works</li>
-                <li>See My Map</li>
-                </div>
-                <li className="account__style">Google Account</li>
-             </ul> */}
            
                 <p>Visualize My Data</p>
                 <div className="navbar__body">
