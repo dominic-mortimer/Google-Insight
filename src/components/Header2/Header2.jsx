@@ -5,16 +5,16 @@ import { Link } from "react-router-dom"
 
 function Header2() {
     return (
-        <div className="header2">
+        <header className="header2">
             <div className="header2__logo">
                 <img className="header2__logo-img" src={googleLogo} alt="googlelogo" />
                 <p className="header2__logo-text">Insight</p>
             </div>
 
-
             <div className="header__navbar">
-
-                <p>Visualize My Data</p>
+                <Link to="/map">
+                    Visualize My Data
+                </Link>
                 <div className="navbar__body">
                     <Link to="/" className="overview__style">
                         <p>Overview</p>
@@ -25,9 +25,8 @@ function Header2() {
                     </Link>
                 </div>
                 <p className="account__style">Google Account</p>
-
             </div>
-        </div>
+        </header>
     );
 }
 
