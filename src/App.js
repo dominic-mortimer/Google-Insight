@@ -12,7 +12,6 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      {/* <header>Google Navbar will be here</header> */}
       <Switch>
         <Route exact path="/" component={MainPage} />
         <Route exact path="/map" component={MapPage} />
