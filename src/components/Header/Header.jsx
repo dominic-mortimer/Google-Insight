@@ -14,6 +14,7 @@ function Header() {
                 <Link to="/" activeclassName="overview__style">
                     <p>Overview</p>
                 </Link>
+                
                 <p>How It Works</p>
                 <Link to="/map" activeclassName="map__style">
                     <p>See My Map</p>
