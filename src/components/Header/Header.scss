@@ -7,6 +7,11 @@
 .header__logo{
     height: 2rem;
     padding-right: 1rem;
+    padding-left: 2rem;
+}
+
+.visualise__style{
+    padding-left: 2rem;
 }
 
 .header__title{
@@ -16,6 +21,7 @@
 
 .account__style{
     color: $google-blue;
+    padding-right:2rem;
 }
 
 .header__nav{
@@ -37,7 +43,7 @@
     display:flex;
     justify-content: space-around;
     width: 20rem;
-    margin-right:25rem;
+    margin-right:40rem;
 }
 
 .map__style, .overview__style{
@@ -45,6 +51,11 @@
 
     &:visited{
         color: $google-grey;
+    }
+
+    &:active{
+        text-decoration: underline;
+        border-bottom: 2px solid red;
     }
 }
 
