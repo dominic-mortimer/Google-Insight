@@ -1,0 +1,50 @@
+
+@use "../../styles/partials/colors" as*;
+@use '../../styles/partials/typography' as *;
+@use '../../styles/partials/variables' as *;
+
+
+.header__logo{
+    height: 2rem;
+    padding-right: 1rem;
+}
+
+.header__title{
+    display:flex;
+    align-items: center;
+}
+
+.account__style{
+    color: $google-blue;
+}
+
+.header__nav{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around; 
+}
+
+.header__navbar{
+    display:flex;
+    justify-content: space-between;
+    border-top: 1px solid $google-black;
+    border-bottom: 1px solid $google-black;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+
+.navbar__body{
+    display:flex;
+    justify-content: space-around;
+    width: 20rem;
+    margin-right:10rem;
+}
+
+.map__style, .overview__style{
+    text-decoration: none;
+
+    &:visited{
+        color: $google-grey;
+    }
+}
+
