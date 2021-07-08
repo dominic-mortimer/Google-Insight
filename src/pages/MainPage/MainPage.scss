@@ -17,7 +17,7 @@
 
     &__privacy-icon {
         height: 50px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     &__title {
@@ -27,7 +27,7 @@
         font-weight: 400;
         color: colors.$google-black;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     &__text {
@@ -36,7 +36,7 @@
         font-weight: 400;
         width: 724px;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     &__button {
@@ -48,8 +48,8 @@
         background-color: colors.$google-blue;
         border-radius: 12px;
         padding: 0 40px;
-        height: 60px;
-        font-size: 30px;
+        height: 56px;
+        font-size: 22px;
     }
 }
 
