@@ -1,0 +1,9 @@
+@use './typography' as *;
+@use './colors';
+
+/* ==================== Main Font Family ==================== */
+$font-family: "Product Sans", sans-serif;
+
+/* ==================== Main Font Color ==================== */
+$main-color: colors.$google-grey;
+$title-color: colors.$google-black;

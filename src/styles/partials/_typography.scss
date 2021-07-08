@@ -1,0 +1,32 @@
+/* ==================== Main Font ==================== */
+// Product Sans - Regular
+@font-face {
+    font-family: "Product Sans";
+    src: url("../../assets/fonts/Product\ Sans\ Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+// Product Sans - Italic
+@font-face {
+    font-family: "Product Sans";
+    src: url("../../assets/fonts/Product\ Sans\ Italic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 400;
+}
+
+// Product Sans - Bold
+@font-face {
+    font-family: "Product Sans";
+    src: url("../../assets/fonts/Product\ Sans\ Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+// Product Sans - Bold Italic
+@font-face {
+    font-family: "Product Sans";
+    src: url("../../assets/fonts/Product\ Sans\ Bold\ Italic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 600;
+}
