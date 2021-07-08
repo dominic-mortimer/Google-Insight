@@ -1,12 +1,17 @@
 import React from "react"
-import "../Header/Header.scss"
+import "./Header2.scss"
 import googleLogo from "../../assets/images/Google-logo-768x432.png"
 import { Link } from "react-router-dom"
 
-function Header() {
+function Header2() {
     return (
-        <div>
-            <p className="header__title"><img className="header__logo" src={googleLogo} alt="googlelogo" /> Insights</p>
+        <div className="header2">
+            <div className="header2__logo">
+                <img className="header2__logo-img" src={googleLogo} alt="googlelogo" />
+                <p className="header2__logo-text">Insight</p>
+            </div>
+
+
             <div className="header__navbar">
 
                 <p>Visualize My Data</p>
@@ -27,4 +32,4 @@ function Header() {
 }
 
 
-export default Header;
+export default Header2;
