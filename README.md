@@ -1,3 +1,11 @@
+# Overview
+
+This project was built as part of the 24 hour BrainStation x Google Hackathon, and is in response to the following question posed by Google UX Designers:
+
+*How might we increase user privacy through data education?*
+
+Our team (comprised of 2 web developers, 3 UX designers and 1 data scientist), elected to tackle the problem space by providing users with an app in which they can view how companies might be using their location data to benefit them.  We make use of a dataset on taxi trips in New York City, and show map visualizations which demonstrate the insights which can be made from collecting this kind of location data.  It is meant to be an educational platform, in which individuals can learn how location data might be used in industry.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
